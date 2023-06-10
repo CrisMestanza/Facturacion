@@ -25,7 +25,43 @@
    <body style="background-color: white;" >
    <div id="img-w" class="centerBody" style="display:none;">
       <!-- <img src="imagenes/spiner-pagina.gif"  class="responsiveIMG"></img> -->
-      <div class="custom-loader"></div>
+      <!-- <div class="custom-loader"></div> -->
+      
+  <div class="gearbox">
+  <div class="overlay"></div>
+    <div class="gear one">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="gear two">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="gear three">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="gear four large">
+      <div class="gear-inner">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </div>
+
    </div>
    <div  id="container-body" style="display:none;">
       <header>
