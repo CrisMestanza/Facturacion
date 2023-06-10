@@ -1,0 +1,1 @@
+[12-Nov-2022 02:02:46 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/excelsex/app.excelservicios.com/sifo-demo/model/usuarios/datos.php on line 20

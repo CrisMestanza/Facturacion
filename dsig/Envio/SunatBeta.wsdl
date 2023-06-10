@@ -1,0 +1,56 @@
+<definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp200409="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp200607="http://www.w3.org/2006/07/ws-policy" xmlns:ns0="http://service.gem.factura.comppago.registro.servicio.sunat.gob.pe/" xmlns:ns1="http://service.sunat.gob.pe" targetNamespace="http://service.gem.factura.comppago.registro.servicio.sunat.gob.pe/">
+	<import location="billService?ns1.wsdl" namespace="http://service.sunat.gob.pe" />
+	<binding name="BillServicePortBinding" type="ns1:billService">
+		<binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+		<operation name="getStatus">
+			<operation soapAction="urn:getStatus" style="document" />
+			<input name="getStatusRequest">
+				<body use="literal" />
+			</input>
+			<output name="getStatusResponse">
+				<body use="literal" />
+			</output>
+		</operation>
+		<operation name="getStatusAR">
+			<operation soapAction="urn:getStatusAR" style="document" />
+			<input name="getStatusARRequest">
+				<body use="literal" />
+			</input>
+			<output name="getStatusARResponse">
+				<body use="literal" />
+			</output>
+		</operation>
+		<operation name="sendBill">
+			<operation soapAction="urn:sendBill" style="document" />
+			<input name="sendBillRequest">
+				<body use="literal" />
+			</input>
+			<output name="sendBillResponse">
+				<body use="literal" />
+			</output>
+		</operation>
+		<operation name="sendPack">
+			<operation soapAction="urn:sendPack" style="document" />
+			<input name="sendPackRequest">
+				<body use="literal" />
+			</input>
+			<output name="sendPackResponse">
+				<body use="literal" />
+			</output>
+		</operation>
+		<operation name="sendSummary">
+			<operation soapAction="urn:sendSummary" style="document" />
+			<input name="sendSummaryRequest">
+				<body use="literal" />
+			</input>
+			<output name="sendSummaryResponse">
+				<body use="literal" />
+			</output>
+		</operation>
+	</binding>
+	<service name="billService">
+		<port name="BillServicePort" binding="ns0:BillServicePortBinding">
+			<address location="https://e-beta.sunat.gob.pe:443/ol-ti-itcpfegem-beta/billService" />
+		</port>
+	</service>
+</definitions>

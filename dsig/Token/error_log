@@ -1,0 +1,23 @@
+[27-Sep-2022 16:22:40 America/Lima] PHP Notice:  Undefined variable: AdditionalDocumentReference in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Xml/notacredito_2_1.php on line 322
+[28-Sep-2022 17:01:21 America/Lima] PHP Warning:  A non-numeric value encountered in /home/excelsex/app.excelservicios.com/sifo-demo/model/001/Put.php on line 84
+[28-Sep-2022 17:01:21 America/Lima] PHP Warning:  A non-numeric value encountered in /home/excelsex/app.excelservicios.com/sifo-demo/model/001/Put.php on line 84
+[28-Sep-2022 17:01:21 America/Lima] PHP Warning:  A non-numeric value encountered in /home/excelsex/app.excelservicios.com/sifo-demo/model/001/Put.php on line 84
+[27-Jan-2023 17:02:11 America/Lima] PHP Fatal error:  Uncaught SoapFault exception: [soap-env:Client.2800] El dato ingresado en el tipo de documento de identidad del receptor no esta permitido. - Detalle: xxx.xxx.xxx value='ticket: 1674856292191 error: INFO : 2800 (nodo: "cbc:ID/schemeID" valor: "1")' in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php:35
+Stack trace:
+#0 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php(35): SoapClient->__call('sendBill', Array, Array)
+#1 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php(75): soapCall('https://e-beta....', 'sendBill', '<?xml version="...')
+#2 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Api/Rest-Full.php(60): enviocpe->EnviarCpe(Array, Array)
+#3 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Api/Rest-Cliente.php(9): FacturacionUBL('20601733022', '{"tipOperacion"...', 'Off')
+#4 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Token/Authorization.php(57): Rest_Cliente('F', '20601733022', '{"tipOperacion"...', 'Of in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php on line 35
+[30-Jan-2023 15:08:40 America/Lima] PHP Notice:  Undefined variable: AdditionalDocumentReference in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Xml/notadebito_2_1.php on line 322
+[30-Jan-2023 15:08:42 America/Lima] PHP Fatal error:  Uncaught SoapFault exception: [soap-env:Client.0306] No se puede leer (parsear) el archivo XML - Detalle: http://xxx.xxx.xxx/ol-ti-itcpfegem-beta/billService: cvc-particle 2.1: in element {urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2}DebitNote of type {urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2}DebitNoteType, found <cac:LegalMonetaryTotal> (in namespace urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2), but next item should be {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}RequestedMonetaryTotal in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php:35
+Stack trace:
+#0 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php(35): SoapClient->__call('sendBill', Array, Array)
+#1 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php(75): soapCall('https://e-beta....', 'sendBill', '<?xml version="...')
+#2 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Api/Rest-Fu in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php on line 35
+[30-Jan-2023 15:10:07 America/Lima] PHP Notice:  Undefined variable: AdditionalDocumentReference in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Xml/notadebito_2_1.php on line 322
+[30-Jan-2023 15:10:08 America/Lima] PHP Fatal error:  Uncaught SoapFault exception: [soap-env:Client.0306] No se puede leer (parsear) el archivo XML - Detalle: http://xxx.xxx.xxx/ol-ti-itcpfegem-beta/billService: cvc-particle 2.1: in element {urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2}DebitNote of type {urn:oasis:names:specification:ubl:schema:xsd:DebitNote-2}DebitNoteType, found <cac:LegalMonetaryTotal> (in namespace urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2), but next item should be {urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2}RequestedMonetaryTotal in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php:35
+Stack trace:
+#0 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php(35): SoapClient->__call('sendBill', Array, Array)
+#1 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php(75): soapCall('https://e-beta....', 'sendBill', '<?xml version="...')
+#2 /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Api/Rest-Fu in /home/excelsex/app.excelservicios.com/sifo-demo/dsig/Envio/sunat_conexion.php on line 35
