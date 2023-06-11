@@ -77,7 +77,7 @@
 			<!---728x90--->
 			<div class="w3ls-login  w3l-sub">
 			<script>
-				//<button id="ing-login" onclick="ingresar()">Iniciar Sessión</button>
+				<button id="ing-login" onclick="ingresar()">Iniciar Sessión</button>
 				<input id="ing-login" type="button" value="Iniciar Sessión" >
 				window.addEventListener("keydown",(e)=>){
 					if(e.keycode==13)
